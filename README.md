@@ -28,7 +28,7 @@ Siga as etapas abaixo para clonar e executar o projeto localmente:
 ### 1. Clonar o Repositório
 
 ```bash
-git clone https://github.com/usuario/cafe-do-amanha.git
+git clone https://github.com/FernandaNascimento26/cafe-do-amanha.git
 ```
 
 ### 2. Navegar até o Diretório do Projeto

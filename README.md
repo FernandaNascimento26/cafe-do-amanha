@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# ☕ Café do Amanhã
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao repositório do projeto "Café do Amanhã"! Este é um site interativo desenvolvido em React para um café fictício localizado em Fortaleza, na Avenida Beira Mar. O projeto inclui uma página inicial, menu interativo, sistema de pedidos e mais.
 
-## Available Scripts
+## 📝 Descrição
 
-In the project directory, you can run:
+O site foi criado para refletir a atmosfera acolhedora do "Café do Amanhã", onde cada xícara conta uma história. O objetivo é proporcionar uma experiência digital que combine com o ambiente único do café.
 
-### `npm start`
+## 🚀 Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Página Inicial (Hero):** Apresenta o café com uma imagem de fundo e uma mensagem de boas-vindas.
+- **Navegação:** Utiliza React Router para navegação suave entre as páginas.
+- **Menu Interativo:** Organizado por categorias (Cafés, Sobremesas, Bebidas Geladas, Especiais, Chás) com abas para facilitar a navegação.
+- **Sistema de Pedidos:** Formulário para selecionar itens do menu, calcular o total e enviar o pedido.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tecnologias Utilizadas
 
-### `npm test`
+- **React** - Biblioteca JavaScript para construção de interfaces de usuário.
+- **React Router** - Gerenciamento de rotas em aplicações React.
+- **Bootstrap** - Framework CSS para estilização e responsividade.
+- **React Bootstrap** - Componentes Bootstrap para React.
+- **FontAwesome** - Ícones para incrementar o design.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Como Executar o Projeto
 
-### `npm run build`
+Siga as etapas abaixo para clonar e executar o projeto localmente:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clonar o Repositório
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/usuario/cafe-do-amanha.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. Navegar até o Diretório do Projeto
 
-### `npm run eject`
+```bash
+cd cafe-do-amanha
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3. Instalar as Dependências
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 4. Iniciar o Servidor de Desenvolvimento
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+### 5. Acessar o Projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Abra seu navegador e acesse `http://localhost:3000` para ver o site em funcionamento.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🗂️ Estrutura do Projeto
 
-### Code Splitting
+Aqui está uma visão geral da estrutura de pastas do projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+cafe-do-amanha/
+│
+├── public/               # Arquivos públicos (index.html, favicon, etc.)
+├── src/                  # Código-fonte do projeto
+│   ├── assets/           # Imagens e outros assets
+│   ├── components/       # Componentes React reutilizáveis (Header, Footer, etc.)
+│   ├── pages/            # Páginas principais do site (Home, Menu, etc.)
+│   ├── App.js            # Componente principal que integra todas as páginas
+│   ├── index.js          # Ponto de entrada da aplicação React
+│   ├── App.css           # Estilos globais
+│   ├── index.css         # Estilos básicos
+│   └── ...               # Outros arquivos de configuração
+│
+├── package.json          # Arquivo de configuração do npm com dependências e scripts
+├── README.md             # Documentação do projeto
+└── ...                   # Outros arquivos de configuração (eslint, gitignore, etc.)
+```
 
-### Analyzing the Bundle Size
+## 🧑‍💻 Contribuindo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Se quiser contribuir para este projeto, sinta-se à vontade para abrir um pull request ou uma issue no repositório. Toda ajuda é bem-vinda!
 
-### Making a Progressive Web App
+## 🛡️ Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está licenciado sob a [MIT License](LICENSE).
